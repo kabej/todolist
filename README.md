@@ -1,11 +1,29 @@
 # TodoList
 
+## Initialisation de l'env de dev
+
 Après avoir cloner le repo (Julien tu peux écraser ce qu'on a fait hier soir):
 
-* sudo npm install -g gulp // Installation de gulp en global
-* sudo npm install -g bower // Installation de bower en global
-* npm install // Installation des modules node (pour les tâches)
-* bower install // Installation des dépendances web (angular dans notre cas)
+### Installation de gulp en global
+```sh
+sudo npm install -g gulp
+```
+
+### Installation de bower en global
+```sh
+sudo npm install -g bower
+```
+
+### Installation des modules node (pour les tâches)
+```sh
+npm install
+```
+
+### Installation des dépendances web (angular dans notre cas)
+```sh
+bower install
+```
+## Tâches Gulp
 
 ### Lance une analyse de code :
 
